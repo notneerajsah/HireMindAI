@@ -14,8 +14,8 @@ app.get("/", (req, res) => {
     res.send("API is running ");
 });
 app.use(cors({
-    origin:["https://hire-mind-ai-z9ee.vercel.app/","http://localhost:5173"]
-    credentials:true
+    origin: ["https://hire-mind-ai-z9ee.vercel.app", "http://localhost:5173"],
+    credentials: true
 }))
 
 app.use(express.json())
