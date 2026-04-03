@@ -11,10 +11,10 @@ import paymentRouter from "./routes/payment.route.js"
 
 const app = express()
 app.get("/", (req, res) => {
-    res.send("API is running 🚀");
+    res.send("API is running ");
 });
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:["https://hire-mind-ai-z9ee.vercel.app/","http://localhost:5173"];
     credentials:true
 }))
 
