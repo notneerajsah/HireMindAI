@@ -10,6 +10,9 @@ import interviewRouter from "./routes/interview.route.js"
 import paymentRouter from "./routes/payment.route.js"
 
 const app = express()
+app.get("/", (req, res) => {
+    res.send("API is running 🚀");
+});
 app.use(cors({
     origin:"http://localhost:5173",
     credentials:true
