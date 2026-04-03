@@ -12,7 +12,7 @@ import Pricing from './pages/Pricing'
 import InterviewReport from './pages/InterviewReport'
 
 // export const ServerUrl  = "http://localhost:8000"
-export const ServerUrl  = "https://hire-mind-ai-z9ee.vercel.app/"
+export const ServerUrl  = "https://your-backend.onrender.com/api/user/current-user"
 function App() {
 
   const dispatch = useDispatch()
